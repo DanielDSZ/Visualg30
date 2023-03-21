@@ -1,0 +1,15 @@
+algoritmo "Contador Par"
+var
+   CONT, V: Inteiro
+inicio
+      Escreva("Digite um valor: ")
+      Leia(V)
+      
+      Se (V % 2 = 1) então
+         V <- V -1
+      FimSe
+      
+      Para CONT <- V até 0 passo -2 faça
+             Escreval(CONT)
+      FimPara
+fimalgoritmo
